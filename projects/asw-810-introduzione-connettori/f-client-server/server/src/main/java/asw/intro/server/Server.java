@@ -21,7 +21,7 @@ public class Server {
 		logger.info("Server...");
         Service service = new ServiceImpl();
         int port = SERVER_PORT;
-		logger.info("Server: starting...");
+		logger.info("Server: starting... (type CTRL+C to stop)");
         ServiceServerProxy server = new ServiceServerProxy(service, port);
         server.run();
 		logger.info("Server: stopped");

@@ -1,0 +1,33 @@
+buildscript {
+	ext {
+		springBootVersion = '2.6.5'
+		springDependencyManagementVersion = '1.0.11.RELEASE'
+		grpcVersion = '1.45.1'
+		protobufVersion = '3.19.4'
+		// https://github.com/google/protobuf-gradle-plugin 
+		protobufPluginVersion = '0.8.18'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+subprojects {
+
+	apply plugin: 'java'
+
+	group = 'asw.grpc'
+	sourceCompatibility = '11'
+
+	repositories {
+		mavenCentral()
+	}
+	
+	tasks.named('test') {
+		useJUnitPlatform()
+	}
+
+}

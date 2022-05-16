@@ -74,7 +74,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		# installa docker e docker compose 
         node.vm.provision :shell, :inline => ASW_RESOURCES + "docker/prepare-docker.sh"
         node.vm.provision :shell, :inline => ASW_RESOURCES + "docker/setup-docker.sh"
-        node.vm.provision :shell, :inline => ASW_RESOURCES + "docker/setup-docker-compose.sh"
+        # node.vm.provision :shell, :inline => ASW_RESOURCES + "docker/setup-docker-compose.sh"
 		
 		node.vm.provision :shell, :inline => ASW_RESOURCES + "workstation/configure-workstation-hosts.sh"
 

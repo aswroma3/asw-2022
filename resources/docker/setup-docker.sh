@@ -11,11 +11,12 @@ source "/home/asw/resources/common.sh"
 # DOCKER_VERSION=5:20.10.5~3-0~ubuntu-focal
 # DOCKER_VERSION=5:20.10.6~3-0~ubuntu-focal
 #DOCKER_VERSION=5:20.10.7~3-0~ubuntu-focal
-DOCKER_VERSION=5:20.10.14~3-0~ubuntu-focal
+#DOCKER_VERSION=5:20.10.14~3-0~ubuntu-focal
+DOCKER_VERSION=5:20.10.16~3-0~ubuntu-focal
 
 # Per vedere le versioni disponibili 
 # apt-cache madison docker-ce
-# oppure https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/ 
+# oppure https://download.docker.com/linux/ubuntu/dists/focal/pool/stable/amd64/ 
 # vedi anche https://github.com/docker/docker-ce/releases 
 
 echo "================="
@@ -58,7 +59,7 @@ apt-get update
 # apt-cache madison docker-ce
 
 # Per installare una versione specifica (raccomandato in produzione) 
-apt-get -y install docker-ce=${DOCKER_VERSION} docker-ce-cli=${DOCKER_VERSION} containerd.io
+apt-get -y install docker-ce=${DOCKER_VERSION} docker-ce-cli=${DOCKER_VERSION} containerd.io docker-compose-plugin
 
 # Alcuni esempi per verificare l'installazione 
 # docker run hello-world

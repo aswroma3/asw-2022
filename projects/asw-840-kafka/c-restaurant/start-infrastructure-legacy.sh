@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Script per avviare Postgres e Kafka con Docker Compose (v2)
+# Script per avvoare Postgres e Kafka con Docker Compose (v1)
 
 echo Starting infrastructure...
 
-docker compose up -d 
+docker-compose up -d 
 
 echo Creating Kafka topics for the restaurant service...
 

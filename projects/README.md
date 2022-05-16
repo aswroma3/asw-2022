@@ -113,9 +113,9 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 
 ## Progetti Docker 
 
-<!---
+* [asw-880-docker](asw-880-docker/): introduzione a *Docker* 
 
-* [asw-880-docker](asw-880-docker/): esempi di *container Docker* 
+<!---
 
 * [asw-885-docker-composizione](asw-885-docker-composizione/): *composizione* di *container Docker* 
 

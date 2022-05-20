@@ -133,6 +133,8 @@ Nei casi più semplici, è possibile eseguire un'applicazione come segue:
 
 ## Progetti per l'anno accademico 2021-2022 
 
+* [asw-edipogram](asw-edipogram/): *Edipogram*: un semplice social network per la condivisione di enigmi e giochi enigmistici 
+
 <!---
 * [asw-sfingegram](asw-sfingegram/): *Sfingegram*: un semplice social network per la condivisione di enigmi (ovvero, giochi enigmistici) 
 

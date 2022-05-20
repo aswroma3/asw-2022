@@ -1,0 +1,6 @@
+include 'enigmi'
+include 'connessioni'
+include 'enigmi-seguiti'
+include 'api-gateway'
+
+rootProject.name = 'asw-edipogram'

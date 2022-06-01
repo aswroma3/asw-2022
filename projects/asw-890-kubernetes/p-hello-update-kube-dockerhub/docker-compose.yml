@@ -1,0 +1,11 @@
+version: '3'
+services:
+  hello-v1:
+    image: aswroma3/hello-update:2022-kube-v1
+    build: ./hello-v1
+  hello-v2:
+    image: aswroma3/hello-update:2022-kube-v2
+    build: ./hello-v2
+  hello-v3:
+    image: aswroma3/hello-update:2022-kube-v3
+    build: ./hello-v3

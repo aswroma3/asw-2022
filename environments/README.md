@@ -63,13 +63,13 @@ E' anche possibile:
   per consentire anche l'esecuzione concorrente di molteplici applicazioni; 
   oltre al software di sviluppo per *Java*, ha anche *Docker* e *Docker Compose* 
 
-<!---
-
 * [kube-cluster](kube-cluster/):
   un ambiente costituito da un cluster di nodi *Kubernetes* (*kube-1*, *kube-2* e *kube-3*)
   più un nodo per la compilazione dei progetti e per la costruzione delle immagini dei container *Docker*; 
   richiede una quantità notevole di risorse nel computer host;  
   sono raccomandati una CPU con almeno 4 core e 8 thread e una memoria RAM di almeno 16 GB 
+
+<!---
 
 
   nulla di altro da escludere, in questo momento 
